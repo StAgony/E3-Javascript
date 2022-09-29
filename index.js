@@ -89,8 +89,6 @@ const setearlocal = () => {
 const iniciarrender = () => {
     console.log('INICIAR RENDER')
     cards.innerHTML = (renderizador(pedidos));
-    
-
 }
 ////////////////////////////////////////////////////////////////////////////////////
 const renderizador = (ped) => {
@@ -103,7 +101,6 @@ const renderizador = (ped) => {
         })
         return iglist
     } 
-
     return `
     <div class="pizza-card">
          <h2>${nombre}</h2> 

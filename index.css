@@ -8,8 +8,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--black);
-    
+    background-color: var(--black);  
 }
 .form-pizza {
     background-color: var(--green);
@@ -22,8 +21,7 @@ body {
     gap: 5vh;
     border-radius: 14px;
     position: absolute;
-    bottom: 10px;
-    
+    bottom: 10px;   
 }
 
 .pizza-card {
@@ -35,7 +33,6 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
 }
 h2, h4 {
     margin: 0px;
@@ -50,7 +47,6 @@ small.show{
     display: flex;
     position: absolute;
     bottom: 2px;
-
 }
 .card-bottom {
     display: flex;
@@ -59,11 +55,6 @@ small.show{
     width: 100%;
     object-fit: cover;
     justify-content: space-between;
-    
-
-
-
-
 }
 img {
     margin: 10px;
