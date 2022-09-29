@@ -1,0 +1,78 @@
+:root {
+--green: #75DF33;
+--yellow: #FFC857;
+--red: #CC2936;
+--black: #342E37;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--black);
+    
+}
+.form-pizza {
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 60vw;
+    gap: 5vh;
+    border-radius: 14px;
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+.pizza-card {
+    background-color: var(--yellow);
+    border-radius: 14px;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+h2, h4 {
+    margin: 0px;
+}
+small {
+    display: none;
+}
+small.show{
+    background-color: var(--red);
+    border-radius: 4px;
+    padding: 4px;
+    display: flex;
+    position: absolute;
+    bottom: 2px;
+
+}
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    justify-content: space-between;
+    
+
+
+
+
+}
+img {
+    margin: 10px;
+    height: 90%;
+    width: 60%;
+    border-radius: 14px;
+    object-fit: cover
+}
+ul {
+    text-align: left;
+    align-items: flex-start;
+}
